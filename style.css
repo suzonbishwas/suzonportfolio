@@ -24,6 +24,7 @@ p{
     width: 40%;
     float: left;
     padding: 5%;
+    overflow: hidden;
 }
 .half-width img{
     width: 100%;
