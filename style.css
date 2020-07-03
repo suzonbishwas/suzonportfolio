@@ -25,16 +25,25 @@ p{
     float: left;
     padding: 5%;
 }
+.half-width img{
+    width: 100%;
+}
 
 .top-banner{
     background-image: url(images/header-bg.png);
-    height: 1400px;
+    height: 1000px;
     background-size: 100%;
     background-repeat: no-repeat;
     
 }
 .middle-banner{
     background-image: url(images/biography-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.bottom-banner{
+    background-image: url(images/footer-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 1000px;
@@ -56,7 +65,43 @@ p{
     overflow: hidden;
 }
 .threeimages{
-    width: 20%;
+    width: 25%;
     float: left;
     padding: 1%;
+    margin-left: 5%;
     }
+.threeimages img{
+    width: 100%;
+}
+#client-say{
+    text-align: center;
+}
+#Bruce{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#CEO{
+    text-align: center;
+    font-size: 20px;
+}
+#feedback{
+    text-align: center;
+    width: 500px;
+    position: center;
+    }
+.bottom-shape{
+    text-decoration: none;
+    background-color: fuchsia;
+ 
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#rights{
+    text-align: center;
+    font-size: 20px;
+}
